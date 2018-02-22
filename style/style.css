@@ -124,7 +124,7 @@ ol li
   color: #DDD;}
 
 #menubar
-{ width: 877px;
+{ width: 1400px;
   height: 72px;
   padding: 0;
   background: #29415D url(menu.png) repeat-x;} 
@@ -155,7 +155,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #1C2C3E url(menu_select.png) repeat-x;}
 
 #site_content
-{ width: 837px;
+{ width: 1300px;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 20px 24px 20px 37px;
@@ -163,11 +163,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 .sidebar
 { float: right;
-  width: 190px;
+  width: 350px;
   padding: 0 15px 20px 15px;}
 
 .sidebar ul
-{ width: 178px; 
+{ width: 200px; 
   padding: 4px 0 0 0; 
   margin: 4px 0 30px 0;}
 
@@ -185,8 +185,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   text-decoration: none;} 
 
 #content
-{ text-align: left;
-  width: 595px;
+{ text-align: center;
+  width: 800px;
   padding: 0;}
 
 #content ul
@@ -200,7 +200,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   line-height: 1.5em;}
 
 #footer
-{ width: 878px;
+{ width: 1400px;
   font: normal 100% 'lucida sans unicode', arial, sans-serif;
   height: 33px;
   padding: 24px 0 5px 0;
