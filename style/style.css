@@ -6,35 +6,74 @@ html
   padding: 0;}
 
 body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #F0EFE2;
-  color: #777;}
+{ /*font: normal .80em 'trebuchet ms', arial, sans-serif;*/
+  /* font: normal .80em Merriweather, Georgia, serif; */
+  background: #025587;
+  color: rgb(88, 87, 87);}
+
+/* 
+  font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Eczar', serif;
+font-family: 'Neuton', serif;
+font-family: 'Alike Angular', serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Signika', sans-serif;
+font-family: 'Kaushan Script', cursive; 
+font-family: 'Scada', sans-serif;
+font-family: 'Arsenal', sans-serif;
+font-family: 'Sarala', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Overpass', sans-serif;
+font-family: 'Merienda', cursive;
+font-family: 'Hind Guntur', sans-serif;
+font-family: 'Palanquin', sans-serif;
+font-family: 'Lato', sans-serif;*/
 
 p
-{ padding: 0 0 20px 0;
+{
+/* font: Merriweather, Georgia, serif; 
+  font: 'century gothic', arial, sans-serif; */
+  font-family: 'Alike Angular', serif;
+  font-size: 18px;
+  padding: 0 0 20px 0;
   line-height: 1.7em;}
 
 img
 { border: 0;}
 
-h1, h2, h3, h4, h5, h6 
-{ font: normal 175% 'century gothic', arial, sans-serif;
+h1, h2
+{ 
+  font-family: 'Lato', sans-serif;
   color: #43423F;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
-h2
-{ font: normal 175% 'century gothic', arial, sans-serif;
-  color: #A4AA04;}
 
-h4, h5, h6
+h3
+{ 
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  color: #43423F;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+
+h4
 { margin: 0;
   padding: 0 0 5px 0;
-  font: normal 120% arial, sans-serif;
+  font-family: 'Exo 2', sans-serif ;
   color: #A4AA04;}
 
 h5, h6
-{ font: italic 95% arial, sans-serif;
+{ font: italic;
+  font-family: 'Overpass', sans-serif;
   padding: 0 0 15px 0;
   color: #000;}
 
@@ -43,11 +82,11 @@ h6
 
 a, a:hover
 { outline: none;
-  text-decoration: underline;
-  color: #1293EE;}
+  text-decoration: none;
+  color: rgb(7, 109, 182);}
 
 a:hover
-{ text-decoration: none;}
+{ text-decoration: underline;}
 
 .left
 { float: left;
@@ -93,18 +132,28 @@ ol li
   height: 240px;}
 
 #logo
-{ width: 825px;
+{ width: 1600px;
   position: relative;
   height: 168px;
   background: #025587 url(logo.png) no-repeat;}
 
 #logo #logo_text 
-{ position: absolute; 
+{ position: relative; 
   top: 20px;
   left: 0;}
 
-#logo h1, #logo h2
-{ font: normal 300% 'century gothic', arial, sans-serif;
+
+
+#logo h1
+{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 42px;
+  border-bottom: 0;
+  text-transform: none;}
+
+#logo h2
+{ font-family: 'Lato', sans-serif;
+  font-size: 18px;
   border-bottom: 0;
   text-transform: none;
   margin: 0;}
@@ -116,15 +165,15 @@ ol li
   text-decoration: none;}
 
 #logo_text h1 a .logo_colour
-{ color: #80FFFF;}
+{ color: rgb(155, 217, 241);}
 
 #logo_text h2
-{ font-size: 100%;
+{
   padding: 4px 0 0 0;
-  color: #DDD;}
+  color: #FFF;}
 
 #menubar
-{ width: 1400px;
+{ width: 1600px;
   height: 72px;
   padding: 0;
   background: #29415D url(menu.png) repeat-x;} 
@@ -139,7 +188,8 @@ ul#menu li
 
 ul#menu li a
 { letter-spacing: 0.1em;
-  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  font-family: 'Lato', sans-serif;
+  /* font: normal 100% 'lucida sans unicode', arial, sans-serif; */
   display: block; 
   float: left; 
   height: 37px;
@@ -155,21 +205,22 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #1C2C3E url(menu_select.png) repeat-x;}
 
 #site_content
-{ width: 1400px;
+{ width: 1600px;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0;
-  background: #FFF url(content.png) repeat-y;} 
+  background: #FFF;} /*url(content.png) fixed repeat-y right/35% 70%*/
 
 .sidebar
 { float: right;
-  width: 350px;
-  padding: 0 15px 20px 15px;}
+  width: 425px;
+  background: rgba(237, 243, 255, 0.707);
+  padding: 20px 15px 15px 50px;}
 
 .sidebar ul
-{ width: 200px; 
+{ width: 400px; 
   padding: 4px 0 0 0; 
-  margin: 4px 0 30px 0;}
+  margin: 4px 0 40px 0;}
 
 .sidebar li
 { list-style: none; 
@@ -185,9 +236,9 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   text-decoration: none;} 
 
 #content
-{ text-align: center;
-  width: 800px;
-  padding: 15px 15px 15px 15px;}
+{ text-align: left;
+  width: 1000px;
+  padding: 20px 15px 15px 50px;}
 
 #content ul
 { margin: 2px 0 22px 0px;}
@@ -200,8 +251,9 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   line-height: 1.5em;}
 
 #footer
-{ width: 1400px;
-  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+{ width: 1600px;
+  font-family: 'Lato', sans-serif;
+  /* font: normal 100% 'lucida sans unicode', arial, sans-serif; */
   height: 33px;
   padding: 24px 0 5px 0;
   text-align: center; 
