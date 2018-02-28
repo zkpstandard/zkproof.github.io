@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>colour_blue - contact us</title>
+  <title>ZKProof Standards</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -38,8 +38,30 @@
       <div id="content">
         <!-- insert the page content here -->
         <h1>Introduction</h1>
-        <p> Zero-knowledge proofs were first introduced by Shafi Goldwasser, Silvio Micali and Charles Rackoff.</p>
-        <p> A zkSNARK is a variant of a zero-knowledge proof that enables a prover to succinctly convince any verifier of the validity of a given statement and achieves computational zero-knowledge without requiring interaction between the prover and any verifier.</p>
+
+        <h2>Basics and History</h2>
+        <p> Zero Knowledge Proofs were first introduced by Shafi Goldwasser, Silvio Micali and Charles Rackoff in the late 80’s. 
+          In [GMR89], they created a new proving procedure with an efficient method for communicating a proof, or in modern terms, 
+          an interactive proof system with an efficient verifier. An interactive proof is an interactive process in which a prover 
+          probabilistically convinces a verifier of the correctness of a non-trivial mathematical proposition with overwhelming probability. 
+          Furthermore, they made this proof zero-knowledge, meaning the verifier can learn nothing but the correctness of the proposition,
+          and hence introducing the concept of knowledge complexity. In 2012, Shafi and Silvio received the A.M. Turing Award 
+          “for transformative work that laid the complexity-theoretic foundations for the science of cryptography”.</p>
+
+        <p>This work initiated a chain of theoretical results that framed our understanding of ZK proofs today. 
+            Goldreich, Micali and Wigderson showed in [GMW86] that, assuming one-way functions, every problem in NP has a zero-knowledge proof. 
+            This result was followed by [IY87] and [Ben-Or et al.] who demonstrated that anything that is provable by a proving system 
+            can be proved in zero-knowledge</p>
+          
+        <p>  A second line of work derived into the study of non-interactive zero-knowledge proofs, which is a variant of the above, 
+          except that there is no interaction between the prover and the verifier. 
+          Interestingly, after the impossibility result for one shot zero-knowledge protocols in the standard model by Goldreich and Oren in [GO92], 
+          it was understood that some cryptographic tasks may require proof systems in extended models.</p>
+        <h2>Formal Security</h2>
+        
+        <h2>zk-SNARK</h2>
+        <p> A zkSNARK is a variant of a zero-knowledge proof that enables a prover to succinctly convince any verifier of the validity 
+          of a given statement and achieves computational zero-knowledge without requiring interaction between the prover and any verifier.</p>
     </div>
     <div id="content_footer"></div>
     <div id="footer">
