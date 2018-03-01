@@ -59,7 +59,7 @@ h1, h2
 
 h3
 { 
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Lato', sans-serif;
   color: #43423F;
   margin: 0 0 15px 0;
@@ -132,7 +132,7 @@ ol li
   height: 240px;}
 
 #logo
-{ width: 1600px;
+{ width: 90%;
   position: relative;
   height: 168px;
   background: #025587 url(logo.png) no-repeat;}
@@ -173,7 +173,7 @@ ol li
   color: #FFF;}
 
 #menubar
-{ width: 1600px;
+{ width: 90%;
   height: 72px;
   padding: 0;
   background: #29415D url(menu.png) repeat-x;} 
@@ -205,7 +205,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #1C2C3E url(menu_select.png) repeat-x;}
 
 #site_content
-{ width: 1600px;
+{ width: 90%;
+  height: 80%;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0;
@@ -213,12 +214,22 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 .sidebar
 { float: right;
-  width: 425px;
+  width: 30%;
   background: rgba(237, 243, 255, 0.707);
-  padding: 20px 15px 15px 50px;}
+  height: 80%;
+  padding: 20px 15px 800px 50px;}
+
+.sidebar p
+{
+/* font: Merriweather, Georgia, serif; 
+  font: 'century gothic', arial, sans-serif; */
+  font-family: 'Alike Angular', serif;
+  font-size: 14px;
+  padding: 0 0 20px 0;
+  line-height: 1.7em;}
 
 .sidebar ul
-{ width: 400px; 
+{ width: 30%; 
   padding: 4px 0 0 0; 
   margin: 4px 0 40px 0;}
 
@@ -237,7 +248,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #content
 { text-align: left;
-  width: 1000px;
+  width: 60%;
+  height: 80%;
   padding: 20px 15px 15px 50px;}
 
 #content ul
@@ -245,13 +257,15 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #content ul li
 { list-style-type: none;
+  font-family: 'Alike Angular', serif;
+  font-size: 18px;
   background: url(bullet.png) no-repeat;
   margin: 0 0 6px 0; 
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
 
 #footer
-{ width: 1600px;
+{ width: 90%;
   font-family: 'Lato', sans-serif;
   /* font: normal 100% 'lucida sans unicode', arial, sans-serif; */
   height: 33px;
@@ -322,9 +336,9 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: none;}
 
 .separator
-{ width: 100%;
+{ width: 80%;
   height: 0;
-  border-top: 1px solid #D9D5CF;
+  border-top: 1px solid rgb(207, 215, 217);
   border-bottom: 1px solid #FFF;
   margin: 0 0 20px 0;}
   
