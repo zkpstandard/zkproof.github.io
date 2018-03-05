@@ -45,17 +45,29 @@
         <p>Registration closes: date</p>
         <p>Hotel registration deadline: date</p>
         <p>Event dates: May 10-11, 2018</p>
-        <h3>Meeting details</h3>
-        <p>Agenda</p>
+        <h2>Meeting details</h2>
+        <h3>Agenda</h3>
         <h3>Time / Place</h3>
-        <p>50 Broadway, Cambridge, MA 02142, États-Unis</p>
-        <h3>Hotel</h3>
+        <p>50 Broadway, Cambridge, MA 02142, USA</p>
+        <div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(42.363023, -71.085546),
+    zoom: 1,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+        <p>Hotel</p>
         <p> Address + link to room promotion + price + deadline </p>
-        <h3>Travel</h3>
+        <p>Travel</p>
         <p>The most convenient airport is Boston Logan (BOS) and the most convenient train station is Boston South Station.<p/>
-        <h3>Registration</h3>
-        <p> Link + price ? </p>
-        <h3>Contact</h3></center>
+        <h3><a href="contact.html">Contact Us</a></h3></center>
       </div>
     </div>
     <div id="content_footer"></div>
