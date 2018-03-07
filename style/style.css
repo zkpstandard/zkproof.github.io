@@ -206,7 +206,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #site_content
 { width: 90%;
-  height: 80%;
+  height: auto;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0;
@@ -216,7 +216,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { float: right;
   width: 30%;
   background: rgba(237, 243, 255, 0.707);
-  height: 80%;
+  height: auto;
   padding: 20px 15px 800px 50px;}
 
 .sidebar p
@@ -249,7 +249,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 #content
 { text-align: left;
   width: 60%;
-  height: 80%;
+  height: auto;
   padding: 20px 15px 15px 50px;}
 
 #content ul
@@ -263,6 +263,16 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin: 0 0 6px 0; 
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
+
+.container
+{
+  display: flex; /* or inline-flex */
+}
+
+.item
+{
+  
+}
 
 #footer
 { width: 90%;

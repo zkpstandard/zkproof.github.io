@@ -53,17 +53,20 @@
 
 <script>
 function myMap() {
-var mapOptions = {
-    center: new google.maps.LatLng(42.363023, -71.085546),
-    zoom: 15,
-    mapTypeId: google.maps.MapTypeId.TERRAIN
+  var myLatLng = {lat: 42.363023, lng: -71.085546};
+  var mapOptions = {
+      center: myLatLng,
+      zoom: 15,
+      mapTypeId: google.maps.MapTypeId.TERRAIN
+  };
+  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'ZKProof Standards Workshop'
+  });
 }
-var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-}
-var marker = new google.maps.Marker({
-  position:(42.363023, -71.085546),
-  map: map
-})
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjgjHaR51MVz5Nu3dwot3GLYqyTe8WtJI&callback=myMap"></script>
