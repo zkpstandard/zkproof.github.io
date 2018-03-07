@@ -53,15 +53,16 @@
 
 <script>
 function myMap() {
+var Marriott = {lat: 42.363023, lng: -71.085546}
 var mapOptions = {
-    center: new google.maps.LatLng(42.363023, -71.085546),
+    center: Marriott,
     zoom: 15,
     mapTypeId: google.maps.MapTypeId.TERRAIN
 }
 var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 }
 var marker = new google.maps.Marker({
-  position:(42.363023, -71.085546),
+  position: Marriott,
   map: map
 })
 </script>
