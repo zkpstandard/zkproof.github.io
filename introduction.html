@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>ZKProof Standards</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Alike+Angular|Arsenal|Dosis|Eczar|Exo+2|Hind+Guntur|Kaushan+Script|Lato|Libre+Baskerville|Libre+Franklin|Merienda|Merriweather|Merriweather+Sans|Muli|Nanum+Pen+Script|Neuton|Overpass|Palanquin|Poppins|Rubik|Sarala|Scada|Signika" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/styleOther.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Zero Knowledge Proof<span class="logo_colour"> Standardization</span></a></h1>
+          <h2>An Open Industry / Academic Initiative</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li class="selected"><a href="introduction.html">Introduction</a></li>
+          <!--<li><a href="white_papers.html">White Papers</a></li>
+          <li><a href="participants.html">Participants</a></li> -->
+          <li><a href="standards_meetings.html">1st Workshop</a></li>
+          <li><a href="documents.html">Standards Documents</a></li>
+          <!-- <li><a href="contact.html">Contact Us</a></li> -->
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Introduction</h1>
+
+        <h2>Basics and History</h2>
+        <p> Zero Knowledge Proofs were first introduced by Goldwasser, Micali and Rackoff in the late 80<span>&#39</span>s. 
+          In <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.419.8132&rep=rep1&type=pdf" target="_blank">[GMR89]</a>, they created a 
+          new proving procedure for communicating a proof, or in modern terms, 
+          an <i>efficient interactive proof system</i>. An interactive proof is an process in which a <i>prover</i> 
+          probabilistically convinces a <i>verifier</i> of the correctness of a mathematical proposition. 
+          In 2012, <a href="https://amturing.acm.org/award_winners/goldwasser_8627889.cfm" target-"_blank">Shafi</a> and 
+          <a href="https://amturing.acm.org/award_winners/micali_9954407.cfm" target="_blank">Silvio</a> received the A.M. Turing Award 
+          <span>&#34</span>for transformative work that laid the complexity-theoretic foundations for the science of cryptography<span>&#34</span>.</p>
+
+        <p>Surprisingly, [GMR89] shows how to make any proving system in NP <i>zero knowledge</i>, meaning that the verifier learns nothing but 
+          the correctness of the proposition. Zero Knowledge Proofs therefore provide complete privacy to the prover while convincing the verifier.
+          Further research resulted in the study of <i>non-interactive</i> zero knowledge proofs (NIZKs), a variant that does not require interaction 
+          between the prover and the verifier. Building on top of these, modern NIZK systems have become more efficient, including succinct proofs, 
+          sub-linear verifiers and highly efficient provers.</p>
+
+        <h2>Standardization</h2>
+        <p>This effort is the result of growing interest from both academia and industry, which has led to a series of results that improve
+          upon previous theory and allow for the development of practical applications. Given this recent growth in activity it has become 
+          clear that a common framework and standards will drive forward the use of this exciting technology.</p>
+        
+        <p></p>
+
+        <!-- <h2>Existing Libraries</h2>
+         <ul>
+           <li>libsnark by SCIPR lab</li>
+           <li>Pepper Project by ....</li>
+           <li>Hyrax by shelat <i>et al.</i></li>
+           <li>Ligero by Muthu ....</li>
+
+         </ul> -->
+    </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+        <a style="text-decoration:none;">Contact us at</a> <a href="mailto:contact@zkproof.org">contact@zkproof.org</a>
+         | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a>
+    </div>
+  </div>
+</body>
+</html>

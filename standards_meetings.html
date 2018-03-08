@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>ZKProof Standards</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Alike+Angular|Arsenal|Dosis|Eczar|Exo+2|Hind+Guntur|Kaushan+Script|Lato|Libre+Baskerville|Libre+Franklin|Merienda|Merriweather|Merriweather+Sans|Muli|Nanum+Pen+Script|Neuton|Overpass|Palanquin|Poppins|Rubik|Sarala|Scada|Signika" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/styleOther.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Zero Knowledge Proof<span class="logo_colour"> Standardization</span></a></h1>
+          <h2>An Open Industry / Academic Initiative</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="introduction.html">Introduction</a></li>
+        <!--  <li><a href="white_papers.html">White Papers</a></li>
+          <li><a href="participants.html">Participants</a></li> -->
+          <li class="selected"><a href="standards_meetings.html">1st Workshop</a></li>
+          <li><a href="documents.html">Standards Documents</a></li>
+          <!-- <li><a href="contact.html">Contact Us</a></li> -->
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+
+      <div id="content">
+        <!-- insert the page content here -->
+        <center><h1>The 1st ZKProof Standards Workshop 2018</h1>
+        <h2>Boston Marriott Cambridge, MA  <br> May 10-11th 2018</h2>
+        <img src= "https://a1.r9cdn.net/rimg/himg/b8/6c/5c/leonardo-1072696-boscb_phototour54_S-image.jpg?width=1004&crop=true" alt="Marriott image" width=40% height=35%>
+        <p></p><p> The 1st ZKProof Standards Workshop will take place at the Boston Marriott Cambridge hotel. The goal of the workshop is to begin
+          the process of Zero Knowledge Proof standardization. The workshop will take place over the course of two days, where invited participants will 
+        discuss relevant aspects and create initial documents for the effort.  </p> 
+        <hr></hr>
+        <h2>Important Dates </h2>
+        <p>Registration closes: March 30, 2018</p>
+        <p>Hotel registration deadline: April 18, 2018</p>
+        <p>The workshop: May 10-11, 2018</p>
+        <h2>The Venue</h2> <p>50 Broadway, Cambridge, MA 02142, USA</p>
+        <div id="map" style="width:500px;height:350px;background:yellow"></div>
+        
+        
+        
+
+        <script>
+        function myMap() {
+        var Marriott = {lat: 42.363023, lng: -71.085546};
+        var mapOptions = {
+            center: Marriott,
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.TERRAIN
+          };
+          var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+          
+          var marker = new google.maps.Marker({
+            position: Marriott,
+            map: map,
+            title: 'ZKProof Standards Workshop'
+          });
+        }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjgjHaR51MVz5Nu3dwot3GLYqyTe8WtJI&callback=myMap"></script>
+        <h2>Funding</h2>
+        We are able to cover part of the accomodation and travel expenses for participants that require financial support. 
+        Requests for support should be sent to <a href="mailto:contact@zkproof.org">contact@zkproof.org</a>.
+        <h2>Accomodation</h2>
+        <p> We have reserved several rooms at a discounted rate for the workshop participants. The discounted registration link will
+           be sent with the invitations. Please note that reservations must be made before April 18, 2018, and will be allocated on a first come basis. </p>
+        <h2>Travel</h2>
+        <p>The most convenient airport is Boston Logan (BOS) and the most convenient train station is Boston South Station.<p/>
+        
+        <h2>Workshop Schedule</h2>
+        <p>TBD</p>
+      </div> </center>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+        <a style="text-decoration:none;">Contact us at</a> <a href="mailto:contact@zkproof.org">contact@zkproof.org</a>
+        | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a>
+    </div>
+  </div>
+</body>
+</html>
