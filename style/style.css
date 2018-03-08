@@ -113,7 +113,7 @@ ul
 { margin: 2px 0 22px 17px;}
 
 ul li
-{ list-style-type: circle;
+{ 
   margin: 0 0 6px 0; 
   padding: 0 0 4px 5px;}
 
@@ -231,16 +231,18 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 .sidebar ul
 { width: 30%; 
   padding: 4px 0 0 0; 
-  margin: 4px 0 40px 0;}
+  margin: 4px 0 40px 20px;}
 
 .sidebar li
-{ list-style: none; 
-  padding: 0 0 7px 0; }
+{ list-style: circle; 
+  width: 250%;
+  padding: 0 0 7px 5px; }
 
 .sidebar li a, .sidebar li a:hover
-{ padding: 0 0 0 40px;
-  display: block;
-  background: transparent url(link.png) no-repeat left center;} 
+{ padding: 0 0 0 0px;
+  display: ;
+  /* background: transparent url(link.png) no-repeat left center;}  */
+}
 
 .sidebar li a.selected
 { color: #444;
@@ -259,20 +261,29 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { list-style-type: none;
   font-family: 'Alike Angular', serif;
   font-size: 18px;
-  background: url(bullet.png) no-repeat;
-  margin: 0 0 6px 0; 
-  padding: 0 0 4px 25px;
+  /* background: url(bullet.png) no-repeat; */
+  margin: 0 0 6px 25px; 
+  padding: 0 0 4px 0px;
   line-height: 1.5em;}
 
-.container
+.sponsor-container
 {
   display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
 }
 
-.item
+.sponsor-container li
 {
-  
+  background: none;
 }
+.sponsor-item
+{
+  align-self: center;
+}
+
 
 #footer
 { width: 90%;
