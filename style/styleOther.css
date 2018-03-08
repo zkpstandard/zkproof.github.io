@@ -224,7 +224,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 /* font: Merriweather, Georgia, serif; 
   font: 'century gothic', arial, sans-serif; */
   font-family: 'Alike Angular', serif;
-  font-size: 14px;
+  font-size: 16px;
   padding: 0 0 20px 0;
   line-height: 1.7em;}
 
@@ -250,10 +250,12 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { text-align: left;
   width: 90%;
   height: 80%;
-  padding: 20px 15px 15px 50px;}
+  padding: 20px 15px 15px 50px;
+  font-size: 18px}
 
 #content ul
-{ margin: 2px 0 22px 0px;}
+{ margin: 2px 0 22px 0px;
+  font-size: 18px}
 
 #content ul li
 { list-style-type: none;
