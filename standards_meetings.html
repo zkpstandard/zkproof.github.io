@@ -40,7 +40,15 @@
     </div>
     <div id="content_header"></div>
     <div id="site_content">
+      <div>
+        <ul id="submenu">
+          <li class="boxed"><a href="#info">Workshop Info</a></li>
+          <li class="boxed"><a href="#agenda">Agenda</a></li>
+          <li class="boxed"><a href="#participants">Participants</a></li>
+          <li class="boxed"><a href="#sponsors">Sponsors</a></li>
+        </ul>
 
+      </div>
       <div id="content">
         <!-- insert the page content here -->
         <center><h1>The 1st ZKProof Standards Workshop 2018</h1>
@@ -55,12 +63,46 @@
           <li><strong>Track 3 (Applications)</strong>: Daniel Benarroch (QED-it), Ran Canetti (BU, TAU), Andrew Miller (University of Illinois) </li>
         </ul>
         <hr></hr>
-        <h2>Important Dates </h2>
+        <h2 id="info">Important Dates </h2>
         <p>Registration closes: April 15, 2018</p>
         <p>Hotel registration deadline: April 18, 2018</p>
         <p>The workshop: May 10-11, 2018</p>
 
-        <h2>Workshop Schedule</h2>
+        <h2>The Venue</h2> <p>50 Broadway, Cambridge, MA 02142, USA</p>
+        <div id="map" style="width:500px;height:350px;background:yellow"></div>
+        
+        
+        
+
+        <script>
+        function myMap() {
+        var Marriott = {lat: 42.363023, lng: -71.085546};
+        var mapOptions = {
+            center: Marriott,
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.TERRAIN
+          };
+          var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+          
+          var marker = new google.maps.Marker({
+            position: Marriott,
+            map: map,
+            title: 'ZKProof Standards Workshop'
+          });
+        }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjgjHaR51MVz5Nu3dwot3GLYqyTe8WtJI&callback=myMap"></script>
+        <h2>Funding</h2>
+        We are able to cover part of the accomodation and travel expenses for participants that require financial support. 
+        Requests for support should be sent to <a href="mailto:contact@zkproof.org">contact@zkproof.org</a>.
+        <h2>Accomodation & Travel</h2>
+        <p> We have reserved several rooms at a discounted rate for the workshop participants. The discounted registration link will
+           be sent with the invitations. Please note that reservations must be made before April 18, 2018, and will be allocated on a first come basis. </p>
+        <p>The most convenient airport is Boston Logan (BOS) and the most convenient train station is Boston South Station.<p/>
+        
+          <hr></hr>
+        <h2 id="agenda">Workshop Schedule</h2>
 
         <style type="text/css">
           .tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
@@ -96,7 +138,7 @@
             <tr>
               <td class="tg-o191"><strong>Thursday 10th</strong></td>
               <td class="tg-o191">8:00 AM</td>
-              <td class="tg-bcbq" colspan="3">Breakfast</td>
+              <td class="tg-bcbq" colspan="3">Coffee &amp; Light Breakfast</td>
               <td class="tg-o191"></td>
               <td class="tg-o191"></td>
             </tr>
@@ -204,7 +246,7 @@
             <tr>
               <td class="tg-o191"><strong>Friday 10th</strong></td>
               <td class="tg-o191">8:00 AM</td>
-              <td class="tg-bcbq" colspan="3">Breakfast</td>
+              <td class="tg-bcbq" colspan="3">Coffee &amp; Light Breakfast</td>
               <td class="tg-o191"></td>
               <td class="tg-o191"></td>
             </tr>
@@ -301,43 +343,306 @@
             </tr>
           </table>
 
-        <h2>The Venue</h2> <p>50 Broadway, Cambridge, MA 02142, USA</p>
-        <div id="map" style="width:500px;height:350px;background:yellow"></div>
+          <hr></hr>
+          <h2 id="participants">Participants</h2>
+          <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+            .tg .tg-cxod{background-color:#000000;vertical-align:top}
+            .tg .tg-o7yb{background-color:#ffffff;border-color:#ffffff;vertical-align:top}
+            </style>
+            <table class="tg" style="undefined;table-layout: fixed; width: 833px">
+            <colgroup>
+            <col style="width: 150px">
+            <col style="width: 222px">
+            <col style="width: 1px">
+            <col style="width: 185px">
+            <col style="width: 273px">
+            </colgroup>
+              <tr>
+                <td class="tg-o7yb">Shashank Agrawal</td>
+                <td class="tg-o7yb">Visa Research</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Charanjit Jutla</td>
+                <td class="tg-o7yb">IBM Research</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">David Archer</td>
+                <td class="tg-o7yb">Galois, Inc.</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Yael Kalai</td>
+                <td class="tg-o7yb">Microsoft Research</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Tony Arcieri</td>
+                <td class="tg-o7yb">iqlusion</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Jonathan Katz</td>
+                <td class="tg-o7yb">UMD</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Mihir  Bellare</td>
+                <td class="tg-o7yb">UCSD</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Shaul Kfir</td>
+                <td class="tg-o7yb">Digital Asset</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Daniel Benarroch</td>
+                <td class="tg-o7yb">QED-it</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Hugo Krawczyk</td>
+                <td class="tg-o7yb">IBM Research</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Vipin Bharathan</td>
+                <td class="tg-o7yb">BNPP</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Anna Lysyanskaya</td>
+                <td class="tg-o7yb">Brown University</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Nir Bitansky</td>
+                <td class="tg-o7yb">Tel Aviv University</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Zaki Manian</td>
+                <td class="tg-o7yb">The Interchain Foundation</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Sean Bowe</td>
+                <td class="tg-o7yb">Zcash Company</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Ian Miers</td>
+                <td class="tg-o7yb">Cornell Tech</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">John Brainard</td>
+                <td class="tg-o7yb">Consensys</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Andrew Miller</td>
+                <td class="tg-o7yb">University of Illinois at Urbana-Champaign</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Benedikt B&uumlnz</td>
+                <td class="tg-o7yb">Stanford University</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Eduardo Morais</td>
+                <td class="tg-o7yb">ING Bank</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Vitalik Buterin</td>
+                <td class="tg-o7yb">Ethereum Foundation</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Neha Narula</td>
+                <td class="tg-o7yb">MIT Media Lab</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Ran Canetti</td>
+                <td class="tg-o7yb">Boston University</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Binh Nguyen</td>
+                <td class="tg-o7yb">Hyperledger Project</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Konstantinos Chalkias</td>
+                <td class="tg-o7yb">R3</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Rafail Ostrovsky</td>
+                <td class="tg-o7yb">Stealth Software Technologies, Inc.</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Josh Cincinnati</td>
+                <td class="tg-o7yb">Zcash Foundation</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Gavin Pacini</td>
+                <td class="tg-o7yb">Deloitte</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Henry Corrigan-Gibbs</td>
+                <td class="tg-o7yb">Stanford University</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Omer Paneth</td>
+                <td class="tg-o7yb">MIT</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Joshua Daniel</td>
+                <td class="tg-o7yb">British Telecom</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Andrew Poelstra</td>
+                <td class="tg-o7yb">Blockstream</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Anuj Das Gupta</td>
+                <td class="tg-o7yb">Stratumn SAS</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Tal  Rabin</td>
+                <td class="tg-o7yb">IBM Research</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Angelo De Caro</td>
+                <td class="tg-o7yb">IBM Research, Zurich</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Mariana Raykova</td>
+                <td class="tg-o7yb">Yale University</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Michael Dixon Dixon</td>
+                <td class="tg-o7yb">Charles Stark Draper Laboratory</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Kurt Rohloff Rohloff</td>
+                <td class="tg-o7yb">NJIT</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Maria Dubovitskaya</td>
+                <td class="tg-o7yb">IBM Research, Zurich</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Ron Rothblum</td>
+                <td class="tg-o7yb">MIT and NEU</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Brett Falk</td>
+                <td class="tg-o7yb">University of Pennsylvania</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Jonathan Rouach</td>
+                <td class="tg-o7yb">QED-it</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Ali Farahanchi</td>
+                <td class="tg-o7yb">MIT Alum</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Alessandra  Scafuro</td>
+                <td class="tg-o7yb">NCSU</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Georg Fuchsbauer</td>
+                <td class="tg-o7yb">Inria and ENS</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">abhi shelat</td>
+                <td class="tg-o7yb">Northeastern</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Nitin Gaur</td>
+                <td class="tg-o7yb">IBM</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Elaine Shi</td>
+                <td class="tg-o7yb">Thunder Token</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Daniel Genkin</td>
+                <td class="tg-o7yb">UPenn and U. of Maryland</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Kartheek Solipuram</td>
+                <td class="tg-o7yb">EY</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Rosario Gennaro</td>
+                <td class="tg-o7yb">City College of New York</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Alin Tomescu</td>
+                <td class="tg-o7yb">VMware Research &amp; MIT</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Nathan George</td>
+                <td class="tg-o7yb">Sovrin Foundation</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Eran Tromer</td>
+                <td class="tg-o7yb">Tel Aviv University, Columbia University</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Steven Goldfeder</td>
+                <td class="tg-o7yb">Princeton University</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Mayank Varia</td>
+                <td class="tg-o7yb">Boston University</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Jamie Goldstein</td>
+                <td class="tg-o7yb">Pillar VC</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Muthu Venkitasubramaniam</td>
+                <td class="tg-o7yb">University of Rochester</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Shafi Goldwasser</td>
+                <td class="tg-o7yb">MIT, Berkeley, Weizmann Institute</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Madars Virza</td>
+                <td class="tg-o7yb">MIT Media Lab</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Marley Gray</td>
+                <td class="tg-o7yb">Microsoft</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Duncan Westland</td>
+                <td class="tg-o7yb">Ernst and Young</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Jack Grigg</td>
+                <td class="tg-o7yb">Zcash</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Douglas Wikstr&oumlm</td>
+                <td class="tg-o7yb">KTH Royal Institute of Technology</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Jens Groth</td>
+                <td class="tg-o7yb">University College London</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Howard Wu</td>
+                <td class="tg-o7yb">UC Berkeley/SCIPR-Lab</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Kobi Gurkan</td>
+                <td class="tg-o7yb">QED-it</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Pieter Wuille</td>
+                <td class="tg-o7yb">Blockstream</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Carmit Hazay</td>
+                <td class="tg-o7yb">Bar-Ilan University</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Moti Yung</td>
+                <td class="tg-o7yb">Columbia University</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Daira Hopwood</td>
+                <td class="tg-o7yb">Security and language researcher</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Yupeng Zhang</td>
+                <td class="tg-o7yb">University of Maryland</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Yuval Ishai</td>
+                <td class="tg-o7yb">Technion</td>
+                <td class="tg-cxod"></td>
+                <td class="tg-o7yb">Aviv Zohar</td>
+                <td class="tg-o7yb">The Hebrew University &amp; QED-it</td>
+              </tr>
+            </table>
+          <hr></hr>
+          <h2 id="sponsors">We appreciate the support of our sponsors</h2>
+        <h3 align="center">Platinum Sponsors</h3>
+        <ul class='sponsor-container'>
+          <li><img  class="sponsor-item" width="150px" height="150px" src= "Logo sponsors/zcashFoundation.png" alt="Zcash Foundation"></li>
+          <li><img class="sponsor-item" width="320px" height="100px" src= "Logo sponsors/qedit.png" alt="QED-it"></li>
+        </ul>
         
-        
-        
+        <h3 align="center">Gold Sponsors</h3>
+        <ul class='sponsor-container'>
+          <p>TO BE ANNOUNCED</p>
+            <!-- <li class='sponsor-item'><img src= "Logo sponsors/Ethereum.png" alt="Ethereum logo" width=200 height=130></li>
+            <li class='sponsor-item'><img src= "Logo sponsors/JPMorgan.png" alt="JPMorgan logo" width=240 height=80></li>
+            <li class='sponsor-item'><img src= "Logo sponsors/Microsoft.png" alt="Microsoft logo" width=250 height=50></li> -->
+        </ul>
 
-        <script>
-        function myMap() {
-        var Marriott = {lat: 42.363023, lng: -71.085546};
-        var mapOptions = {
-            center: Marriott,
-            zoom: 15,
-            mapTypeId: google.maps.MapTypeId.TERRAIN
-          };
-          var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-          
-          var marker = new google.maps.Marker({
-            position: Marriott,
-            map: map,
-            title: 'ZKProof Standards Workshop'
-          });
-        }
-        </script>
-
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjgjHaR51MVz5Nu3dwot3GLYqyTe8WtJI&callback=myMap"></script>
-        <h2>Funding</h2>
-        We are able to cover part of the accomodation and travel expenses for participants that require financial support. 
-        Requests for support should be sent to <a href="mailto:contact@zkproof.org">contact@zkproof.org</a>.
-        <h2>Accomodation & Travel</h2>
-        <p> We have reserved several rooms at a discounted rate for the workshop participants. The discounted registration link will
-           be sent with the invitations. Please note that reservations must be made before April 18, 2018, and will be allocated on a first come basis. </p>
-        <p>The most convenient airport is Boston Logan (BOS) and the most convenient train station is Boston South Station.<p/>
-        
-          <h2>Participants</h2>
-          <p>
-            To be published.
-          </p>
+        <h3 align="center">Silver Sponsors</h3>
+        <ul class='sponsor-container'>
+          <P>TO BE ANNOUNCED</P>
+            <!-- <li class='sponsor-item'><img src= "Logo sponsors/Ethereum.png" alt="Ethereum logo" width=200 height=130></li>
+            <li class='sponsor-item'><img src= "Logo sponsors/JPMorgan.png" alt="JPMorgan logo" width=240 height=80></li>
+            <li class='sponsor-item'><img src= "Logo sponsors/Microsoft.png" alt="Microsoft logo" width=250 height=50></li> -->
+        </ul>
 
         
       </div> </center>

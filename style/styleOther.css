@@ -204,6 +204,26 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
   background: #1C2C3E url(menu_select.png) repeat-x;}
 
+#submenu{
+  text-align: center;
+  margin: 30px 45px 0px 0px;
+}
+
+.boxed{
+  border: 2px solid #025587;
+  border-radius: 5px;
+}
+
+ul#submenu li{
+    display: inline;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 0px 15px;
+    padding: 0px 5px 0px 5px; 
+}
+
 #site_content
 { width: 90%;
   height: 80%;
@@ -264,6 +284,35 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin: 0 0 6px 0; 
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
+
+  .sponsor-ontainer
+  {
+    /* display: flex; or inline-flex */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    list-style: none;
+    /* justify-content: center; */
+  }
+  
+  .sponsor-container li
+  {
+    background: none;
+    /* height: 200px;
+    width: 100%; */
+    display: inline-block;
+    vertical-align: middle;
+  }
+  /* .sponsor-item
+  {
+    vertical-align: middle;
+    align-content: center; 
+    width: 80%;
+  } */
+  
+  .sponsor-container li img{
+    display: block;
+    margin: auto;
+  }
 
 #footer
 { width: 90%;
