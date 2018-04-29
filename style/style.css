@@ -266,7 +266,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   padding: 0 0 4px 0px;
   line-height: 1.5em;}
 
-.sponsor-ontainer
+.sponsor-container
 {
   /* display: flex; or inline-flex */
   /* flex-direction: row;
