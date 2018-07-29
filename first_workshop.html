@@ -1,0 +1,629 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>ZKProof Standards</title>
+    <meta property="og:description" content="The Zero Knowledge Proof Standardization Effort. 
+    An open initiative of industry and academica to standardize the use of Zero Knowledge Proofs." />
+    <meta name="keywords" content="ZKP, Zero Knowledge Proofs, standardization, standards" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <meta property="og:title" content="ZKProof Standards" />
+  <meta property="og:type" content="The Zero Knowledge Proof Standardization Effort" />
+  <meta property="og:url" content="http://zkproof.org" />
+  <meta property="og:image" content="style/link.jpg" />
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Alike+Angular|Arsenal|Dosis|Eczar|Exo+2|Hind+Guntur|Kaushan+Script|Lato|Libre+Baskerville|Libre+Franklin|Merienda|Merriweather|Merriweather+Sans|Muli|Nanum+Pen+Script|Neuton|Overpass|Palanquin|Poppins|Rubik|Sarala|Scada|Signika" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/styleOther.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Zero Knowledge Proof<span class="logo_colour"> Standardization</span></a></h1>
+          <h2>An Open Industry / Academic Initiative</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="introduction.html">Introduction</a></li>
+        <!--  <li><a href="white_papers.html">White Papers</a></li>
+          <li><a href="participants.html">Participants</a></li> -->
+          <li><a href="standards_meetings.html">Workshops</a></li>
+          <li><a href="documents.html">Standards Documents</a></li>
+          <li><a href="contact.html">Join ZKProof</a></li>
+          <!-- <li><a href="contact.html">Contact Us</a></li> -->
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div>
+        <ul id="submenu">
+          <li class="boxed"><a href="#info">Workshop Info</a></li>
+          <li class="boxed"><a href="#agenda">Agenda</a></li>
+          <li class="boxed"><a href="#participants">Participants</a></li>
+          <li class="boxed"><a href="#sponsors">Sponsors</a></li>
+          <li class="boxed"><a target="_blank" href="http://www.lghtbx.com/u/contact@zkproof.org">Pictures</a></li>
+        </ul>
+
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <center><h1>The 1st ZKProof Standards Workshop 2018</h1>
+        <h2>Boston Marriott Cambridge, MA  <br> May 10-11th 2018</h2>
+        <p id="pic">The workshop, which concluded on May 12th, was a success, bringing together more than 70 people from academia and the industry.</p>
+        <img src= "workshop.png" alt="Workshop participants" width=70% height=65%>
+        <!--<img src= "https://a1.r9cdn.net/rimg/himg/b8/6c/5c/leonardo-1072696-boscb_phototour54_S-image.jpg?width=1004&crop=true" alt="Marriott image" width=40% height=35%>-->
+        <p></p><p> The 1st ZKProof Standards Workshop will take place at the Boston Marriott Cambridge hotel. The goal of the workshop is to begin
+          the process of Zero Knowledge Proof standardization. The workshop, which is a registration-only event, will take place over the course of two days, where invited participants will 
+        discuss relevant aspects and create initial documents for the effort. The chairs of the three tracks are the following: </p> 
+        <ul style="list-style: none;">
+          <li><strong>Track 1 (Security)</strong>: Jens Groth (UCL), Yael Kalai (Microsoft Research), Muthu Venkitasubramaniam (University of Rochester)</li>
+          <li><strong>Track 2 (Implementations)</strong>: Sean Bowe (Zcash), Kobi Gurkan (QED-it), Eran Tromer (TAU, Columbia University)</li>
+          <li><strong>Track 3 (Applications)</strong>: Daniel Benarroch (QED-it), Ran Canetti (BU, TAU), Andrew Miller (University of Illinois) </li>
+        </ul>
+        
+        
+        <hr></hr>
+        <h2 id="info">Important Dates </h2>
+        <p>Registration closes: April 15, 2018</p>
+        <p>Hotel registration deadline: April 18, 2018</p>
+        <p>The workshop: May 10-11, 2018</p>
+
+        <h2>The Venue</h2> <p>50 Broadway, Cambridge, MA 02142, USA</p>
+        <div id="map" style="width:500px;height:350px;background:yellow"></div>
+        
+        
+        
+
+        <script>
+        function myMap() {
+        var Marriott = {lat: 42.363023, lng: -71.085546};
+        var mapOptions = {
+            center: Marriott,
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.TERRAIN
+          };
+          var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+          
+          var marker = new google.maps.Marker({
+            position: Marriott,
+            map: map,
+            title: 'ZKProof Standards Workshop'
+          });
+        }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjgjHaR51MVz5Nu3dwot3GLYqyTe8WtJI&callback=myMap"></script>
+        <h2>Funding</h2>
+        Funding requests are now closed.
+        We are able to cover part of the accomodation and travel expenses for participants that require financial support. 
+        Requests for support should be sent to <a href="mailto:contact@zkproof.org">contact@zkproof.org</a>.
+        <h2>Accomodation & Travel</h2>
+        <p> We have reserved several rooms at a discounted rate for the workshop participants. The discounted registration link will
+           be sent with the invitations. Please note that reservations must be made before April 18, 2018, and will be allocated on a first come basis. </p>
+        <p>The most convenient airport is Boston Logan (BOS) and the most convenient train station is Boston South Station.<p/>
+        
+          <hr></hr>
+        <h2 id="agenda">Workshop Schedule</h2>
+
+        <style type="text/css">
+          .tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+          .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+          .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+          .tg .tg-wnd1{background-color:#025587;text-align:center;vertical-align:top}
+          .tg .tg-g4ty{background-color:#ffccc9;color:#ffccc9;text-align:center;vertical-align:top}
+          .tg .tg-baqh{text-align:center;vertical-align:top}
+          .tg .tg-o191{background-color:#bce3d0;text-align:center;vertical-align:top}
+          .tg .tg-bcbq{font-weight:bold;background-color:#bce3d0;text-align:center;vertical-align:top}
+          .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+          .tg .tg-yw4l{vertical-align:top}
+          </style>
+          <table class="tg" style="undefined;table-layout: fixed; width: 1104px">
+          <colgroup>
+          <col style="width: 72px">
+          <col style="width: 76px">
+          <col style="width: 205px">
+          <col style="width: 321px">
+          <col style="width: 248px">
+          <col style="width: 136px">
+          <col style="width: 76px">
+          </colgroup>
+            <tr>
+              <th class="tg-wnd1">Day</th>
+              <th class="tg-wnd1">Estimated Time</th>
+              <th class="tg-wnd1">Session 1</th>
+              <th class="tg-wnd1">Sessions 2</th>
+              <th class="tg-wnd1">Session 3</th>
+              <th class="tg-wnd1">Speaker</th>
+              <th class="tg-wnd1">Room</th>
+            </tr>
+            <tr>
+              <td class="tg-o191"><strong>Thursday 10th</strong></td>
+              <td class="tg-o191">8:00 AM</td>
+              <td class="tg-bcbq" colspan="3">Registration &amp; Light Breakfast</td>
+              <td class="tg-o191"></td>
+              <td class="tg-o191"></td>
+            </tr>
+            
+            <tr>
+              <td class="tg-baqh" rowspan="3" style="vertical-align: middle">Moderator</td>
+              <td class="tg-baqh">9:00 AM</td>
+              <td class="tg-amwm" colspan="3"> Welcome &amp; Introduction to the ZKProof effort</td>
+              <td class="tg-baqh">Shafi Goldwasser</td>
+              <td class="tg-baqh" rowspan="3" style="vertical-align: middle">Main</td>
+            </tr>
+            <tr>
+              
+              <td class="tg-baqh">9:20 AM</td>
+              <td class="tg-amwm" colspan="3">Keynote</td>
+              <td class="tg-baqh">Ran Canetti</td>
+              
+            </tr>
+            <tr>
+              
+              <td class="tg-baqh">10:00 AM</td>
+              <td class="tg-baqh" colspan="3"><strong>Track Chair presentations</strong><br>Each chair presents the scope of the track, tentative outline for the writeup, major open questions/difficulties, tentative dependencies on other tracks.</td>
+              <td class="tg-baqh">Track Chairs</td>
+              
+            </tr>
+            <tr>
+              <td class="tg-o191"></td>
+              <td class="tg-o191">10:45 AM</td>
+              <td class="tg-o191" colspan="3"><strong>Coffee Break</strong></td>
+              <td class="tg-o191"></td>
+              <td class="tg-o191"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle"></td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">11:00 AM</td>
+              <td class="tg-yw4l" colspan="3"><strong>Breakout 1:</strong><br>- Finalize scope and document structure<br>- Define and assign task groups for fleshing out the document<br>- Detailed content request from other tracks (e.g., concepts expected to be defined)</td>
+              <td class="tg-baqh" rowspan="2"></td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">Breakouts</td>
+            </tr>
+            <tr>
+              <td class="tg-baqh">Security</td>
+              <td class="tg-baqh">Implementations</td>
+              <td class="tg-baqh">Applications</td>
+            </tr>
+            <tr>
+              <td class="tg-o191"></td>
+              <td class="tg-o191">1:00 PM</td>
+              <td class="tg-o191" colspan="3"><strong>Lunch</strong></td>
+              <td class="tg-o191"></td>
+              <td class="tg-o191"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle"></td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">2:15 PM</td>
+              <td class="tg-yw4l" colspan="3"><strong>Breakout 2:</strong><br>- Adhoc sub-groups<br>- Detailed content discussions<br>- Bullet points on content by sections and bibliography<br>- Further content request from other tracks</td>
+              <td class="tg-baqh" rowspan="2"></td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">Breakout</td>
+            </tr>
+            <tr>
+              <td class="tg-baqh">Security</td>
+              <td class="tg-baqh">Implementations</td>
+              <td class="tg-baqh">Applications</td>
+            </tr>
+            <tr>
+              <td class="tg-o191"></td>
+              <td class="tg-o191">4:30 PM</td>
+              <td class="tg-o191" colspan="3"><strong>Coffee Break</strong></td>
+              <td class="tg-o191"></td>
+              <td class="tg-o191"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle"></td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">4:45 PM</td>
+              <td class="tg-yw4l" colspan="3"><strong>Breakout 3:</strong><br>- Start writing document by ad-hoc groups<br>- Chairs can share with other tracks the content request <br>- Align on language and notation</td>
+              <td class="tg-baqh" rowspan="2"></td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">Breakout</td>
+            </tr>
+            <tr>
+              <td class="tg-baqh">Security</td>
+              <td class="tg-baqh">Implementations</td>
+              <td class="tg-baqh">Applications</td>
+            </tr>
+            <tr>
+              <td class="tg-baqh"></td>
+              <td class="tg-baqh">6:00 PM</td>
+              <td class="tg-amwm" colspan="3">End of Day 1</td>
+              <td class="tg-baqh"></td>
+              <td class="tg-baqh"></td>
+            </tr>
+            <tr>
+              <td class="tg-o191"></td>
+              <td class="tg-o191">7:00 PM</td>
+              <td class="tg-bcbq" colspan="3">ZKPROOF RECEPTION: snacks and drinks</td>
+              <td class="tg-o191"></td>
+              <td class="tg-o191">Main</td>
+            </tr>
+            <tr>
+              <td class="tg-g4ty" colspan="7"></td>
+            </tr>
+            <tr>
+              <td class="tg-o191"><strong>Friday 11th</strong></td>
+              <td class="tg-o191">8:00 AM</td>
+              <td class="tg-bcbq" colspan="3">Coffee &amp; Light Breakfast</td>
+              <td class="tg-o191"></td>
+              <td class="tg-o191"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">Moderator</td>
+              <td class="tg-baqh">9:00 AM</td>
+              <td class="tg-amwm" colspan="3">Keynote</td>
+              <td class="tg-baqh">Shafi Goldwasser</td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">Main</td>
+            </tr>
+            <tr>
+          
+              <td class="tg-baqh">9:45 AM</td>
+              <td class="tg-amwm" colspan="3">Zero Knowledge Proofs in the industry</td>
+              <td class="tg-baqh"> Companies' pitches</td>
+              
+            </tr>
+            <tr>
+              <td class="tg-o191"></td>
+              <td class="tg-o191">10:45 AM</td>
+              <td class="tg-bcbq" colspan="3">GROUP PHOTO</td>
+              <td class="tg-o191"></td>
+              <td class="tg-o191"></td>
+            </tr>
+            <tr>
+              <td class="tg-o191"></td>
+              <td class="tg-o191">11:00 AM</td>
+              <td class="tg-bcbq" colspan="3">Coffee Break</td>
+              <td class="tg-o191"></td>
+              <td class="tg-o191"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh"></td>
+              <td class="tg-baqh">11:15 AM</td>
+              <td class="tg-baqh" colspan="3"><strong>Sync &amp; Overview</strong><br>Chairs will present the current state of the document / contentDetail what dependencies have been finalized and update on changes from the expected scopeDiscuss what has been left out of the documents and why</td>
+              <td class="tg-baqh">Track Chairs</td>
+              <td class="tg-baqh" style="vertical-align: middle">Main</td>
+            </tr>
+            <tr>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle"></td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">11:45 AM</td>
+              <td class="tg-yw4l" colspan="3"><strong>Breakout 4:</strong><br>- Write document in task groups</td>
+              <td class="tg-baqh" rowspan="2"></td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">Breakout</td>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">Security</td>
+              <td class="tg-yw4l">Implementations</td>
+              <td class="tg-yw4l">Applications</td>
+            </tr>
+            <tr>
+              <td class="tg-o191"></td>
+              <td class="tg-o191">1:00 PM</td>
+              <td class="tg-o191" colspan="3"><strong>Lunch</strong></td>
+              <td class="tg-o191"></td>
+              <td class="tg-o191"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle"></td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">2:15 PM</td>
+              <td class="tg-yw4l" colspan="3"><strong>Breakout 5:</strong><br>- Finish documents<br>- Decide who will be responsible to deliver the document to the SC (finish, edits, formatting)</td>
+              <td class="tg-baqh" rowspan="2"></td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">Breakout</td>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">Security</td>
+              <td class="tg-yw4l">Implementations</td>
+              <td class="tg-yw4l">Applications</td>
+            </tr>
+            <tr>
+              <td class="tg-o191"></td>
+              <td class="tg-o191">4:30 PM</td>
+              <td class="tg-bcbq" colspan="3">Coffee Break</td>
+              <td class="tg-o191"></td>
+              <td class="tg-o191"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh"></td>
+              <td class="tg-baqh">4:50 PM</td>
+              <td class="tg-baqh" colspan="3"><strong>Wrap up and Conclusions</strong><br>Presentation of results, retrospective, what's next in the standardization effort</td>
+              <td class="tg-baqh">Track Chairs</td>
+              <td class="tg-baqh" rowspan="2" style="vertical-align: middle">Main</td>
+            </tr>
+            <tr>
+              <td class="tg-baqh"></td>
+              <td class="tg-baqh">5:50 PM</td>
+              <td class="tg-amwm" colspan="3">Closing remarks</td>
+              <td class="tg-baqh">Aviv Zohar</td>
+              
+            </tr>
+            <tr>
+              <td class="tg-baqh"></td>
+              <td class="tg-baqh">6:00 PM</td>
+              <td class="tg-amwm" colspan="3">End of Workshop</td>
+              <td class="tg-baqh"></td>
+              <td class="tg-baqh"></td>
+            </tr>
+          </table>
+
+          <hr></hr>
+          <h2 id="participants">Participants</h2>
+          <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+            .tg .tg-yfa9{background-color:#000000;color:#000000;border-color:#000000;vertical-align:top}
+            .tg .tg-o7yb{background-color:#ffffff;border-color:#ffffff;vertical-align:top}
+            </style>
+            <table class="tg" style="undefined;table-layout: fixed; width: 885px">
+            <colgroup>
+            <col style="width: 163px">
+            <col style="width: 236px">
+            <col style="width: 2px">
+            <col style="width: 206px">
+            <col style="width: 278px">
+            </colgroup>
+              <tr>
+                <td class="tg-o7yb">Shashank Agrawal</td>
+                <td class="tg-o7yb">Visa Research</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Yael Kalai</td>
+                <td class="tg-o7yb">Microsoft Research</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">David Archer</td>
+                <td class="tg-o7yb">Galois, Inc.</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Shaul Kfir</td>
+                <td class="tg-o7yb">Digital Asset</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Tony Arcieri</td>
+                <td class="tg-o7yb">iqlusion</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Hugo Krawczyk</td>
+                <td class="tg-o7yb">IBM Research</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Daniel Benarroch</td>
+                <td class="tg-o7yb">QED-it</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Jonathan Levi</td>
+                <td class="tg-o7yb">Hacera</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Vipin Bharathan</td>
+                <td class="tg-o7yb">BNPP</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Anna Lysyanskaya</td>
+                <td class="tg-o7yb">Brown University</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Nir Bitansky</td>
+                <td class="tg-o7yb">Tel Aviv University</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Zaki Manian</td>
+                <td class="tg-o7yb">The Interchain Foundation</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Sean Bowe</td>
+                <td class="tg-o7yb">Zcash Company</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Andrew Miller</td>
+                <td class="tg-o7yb">University of Illinois at Urbana-Champaign</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">John Brainard</td>
+                <td class="tg-o7yb">Consensys</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Eduardo Morais</td>
+                <td class="tg-o7yb">ING Bank</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Benedikt B&uumlnz</td>
+                <td class="tg-o7yb">Stanford University</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Neha Narula</td>
+                <td class="tg-o7yb">MIT Media Lab</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Ran Canetti</td>
+                <td class="tg-o7yb">Boston University</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Binh Nguyen</td>
+                <td class="tg-o7yb">Hyperledger Project</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Konstantinos Chalkias</td>
+                <td class="tg-o7yb">R3</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Rafail Ostrovsky</td>
+                <td class="tg-o7yb">Stealth Software Technologies, Inc.</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Josh Cincinnati</td>
+                <td class="tg-o7yb">Zcash Foundation</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Gavin Pacini</td>
+                <td class="tg-o7yb">Deloitte</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Henry Corrigan-Gibbs</td>
+                <td class="tg-o7yb">Stanford University</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Omer Paneth</td>
+                <td class="tg-o7yb">MIT</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Joshua Daniel</td>
+                <td class="tg-o7yb">British Telecom</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Andrew Poelstra</td>
+                <td class="tg-o7yb">Blockstream</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Anuj Das Gupta</td>
+                <td class="tg-o7yb">Stratumn SAS</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Tal Rabin</td>
+                <td class="tg-o7yb">IBM Research</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Angelo De Caro</td>
+                <td class="tg-o7yb">IBM Research, Zurich</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Mariana Raykova</td>
+                <td class="tg-o7yb">Yale University</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Michael Dixon</td>
+                <td class="tg-o7yb">Charles Stark Draper Laboratory</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Kurt Rohloff Rohloff</td>
+                <td class="tg-o7yb">NJIT</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Maria Dubovitskaya</td>
+                <td class="tg-o7yb">IBM Research, Zurich</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Ron Rothblum</td>
+                <td class="tg-o7yb">MIT and NEU</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Brett Falk</td>
+                <td class="tg-o7yb">University of Pennsylvania</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Jonathan Rouach</td>
+                <td class="tg-o7yb">QED-it</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Ali Farahanchi</td>
+                <td class="tg-o7yb">MIT Alum</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Alessandra Scafuro</td>
+                <td class="tg-o7yb">NCSU</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Georg Fuchsbauer</td>
+                <td class="tg-o7yb">Inria and ENS</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">abhi shelat</td>
+                <td class="tg-o7yb">Northeastern</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Daniel Genkin</td>
+                <td class="tg-o7yb">UPenn and U. of Maryland</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Kartheek Solipuram</td>
+                <td class="tg-o7yb">EY</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Nathan George</td>
+                <td class="tg-o7yb">Sovrin Foundation</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Alin Tomescu</td>
+                <td class="tg-o7yb">VMware Research &amp; MIT</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Steven Goldfeder</td>
+                <td class="tg-o7yb">Princeton University</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Eran Tromer</td>
+                <td class="tg-o7yb">Tel Aviv University, Columbia University</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Jamie Goldstein</td>
+                <td class="tg-o7yb">Pillar VC</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Mayank Varia</td>
+                <td class="tg-o7yb">Boston University</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Shafi Goldwasser</td>
+                <td class="tg-o7yb">MIT, Berkeley, Weizmann Institute</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Muthu Venkitasubramaniam</td>
+                <td class="tg-o7yb">University of Rochester</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Jack Grigg</td>
+                <td class="tg-o7yb">Zcash</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Madars Virza</td>
+                <td class="tg-o7yb">MIT Media Lab</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Jens Groth</td>
+                <td class="tg-o7yb">University College London</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Douglas Wikstr&oumlm</td>
+                <td class="tg-o7yb">KTH Royal Institute of Technology</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Kobi Gurkan</td>
+                <td class="tg-o7yb">QED-it</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Pieter Wuille</td>
+                <td class="tg-o7yb">Blockstream</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Daira Hopwood</td>
+                <td class="tg-o7yb">Security and language researcher</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Yupeng Zhang</td>
+                <td class="tg-o7yb">University of Maryland</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Yuval Ishai</td>
+                <td class="tg-o7yb">Technion</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb">Aviv Zohar</td>
+                <td class="tg-o7yb">The Hebrew University &amp; QED-it</td>
+              </tr>
+              <tr>
+                <td class="tg-o7yb">Charanjit Jutla</td>
+                <td class="tg-o7yb">IBM Research</td>
+                <td class="tg-yfa9"></td>
+                <td class="tg-o7yb"></td>
+                <td class="tg-o7yb"></td>
+              </tr>
+            </table>
+          
+          <hr></hr>
+          <h2 id="sponsors">We appreciate the support of our sponsors</h2>
+          <h2 align="center" style="margin: 0px 0px 50px 0px">Platinum Sponsors</h2>
+          <ul class='sponsor-container' style="text-align: center" style="vertical-align: middle">
+            <li><img width="320px" height="100px" src= "LogoSponsors/qedit.png" alt="QED-it"></li>
+            <li><img width="150px" height="150px" src= "LogoSponsors/zcashFoundationLogo.svg" alt="Zcash Foundation"></li>
+          </ul>
+          
+          <h2 align="center" style="margin: 50px 0px 50px 0px">Gold Sponsor</h2>
+          <ul class='sponsor-container' style="text-align: center" style="vertical-align: middle">
+            <li><img width="400px" height="100px" src= "LogoSponsors/CPIIS.png" alt="CPIIS"></li> 
+          </ul>
+  
+          <h2 align="center" style="margin: 50px 0px 50px 0px">Silver Sponsors</h2>
+        <ul class='sponsor-container' style="text-align: center">
+            <li><img width="230px" height="60px" src= "LogoSponsors/accenture.png" alt="Accenture"></li>
+            <li><img width="230px" height="80px" src= "LogoSponsors/DHVCLogo.png" alt="DHVC"></li>
+            <li><img width="70px" height="53px" src= "LogoSponsors/R3Logo.png" alt="R3"></li>
+            
+        </ul>
+        <ul class='sponsor-container' style="text-align: center">
+            <li><img width="215px" height="40px" src= "LogoSponsors/StratumnLogo.png" alt="Stratumn"></li>
+            <li><img width="105px" height="105px" src= "LogoSponsors/thunder.png" alt="Thundertoken"></li>
+            <li><img width="220px" height="45px" src= "LogoSponsors/URVenturesLogo.png" alt="UR Ventures"></li>
+            <li><img width="257px" height="90px" src= "LogoSponsors/VMware.jpg" alt="VMware"></li>
+        </ul>
+      </div> </center>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+        <a style="text-decoration:none;">Contact us at</a> <a href="mailto:contact@zkproof.org">contact@zkproof.org</a>
+        | <a href="http://www.html5webtemplates.co.uk" target="_blank">design from HTML5webtemplates.co.uk</a>
+    </div>
+  </div>
+</body>
+</html>

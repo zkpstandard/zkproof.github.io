@@ -285,6 +285,20 @@ ul#submenu li{
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
 
+  #content ol{
+    margin: 2px 0 22px 50px;
+    font-size: 18px
+  }
+
+  #content ol li
+  { list-style-type: disc;
+    font-family: 'Alike Angular', serif;
+    font-size: 18px;
+    margin: 0 0 6px 0; 
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;}
+
+
   .sponsor-ontainer
   {
     /* display: flex; or inline-flex */
@@ -293,6 +307,7 @@ ul#submenu li{
     list-style: none;
     /* justify-content: center; */
   }
+  
   
   .sponsor-container li
   {
